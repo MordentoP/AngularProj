@@ -1,34 +1,42 @@
 
 <form>
-    <div class="form-group w-50 p-3">
+    <div class="myForm">
     <label for="firstName">Full Name</label>
     <input required minlength="3" ngModel name="firstName" #firstName="ngModel" (change)="log(firstName)" id="firstName" type="text" class="form-control">
-    <div class="alert alert-danger" *ngIf="firstName.touched && !firstName.valid">Input name</div>
-     <div *ngIf="firstName.errors"></div>
     
+    <div class="form-not-valid" *ngIf="firstName.touched && !firstName.valid">Input name</div>
+         
     </div>
-    <div class="form-group w-50 p-3">
+    <div class="myForm">
       <label  for="Company Name"> Company Name</label>
-      <input required minlength="3" ngModel name="company" #company="ngModel" type="text" class="form-control">
+      <input required minlength="3" ngModel name="company" #company="ngModel" type="text" class="form-control" >
       <div class="alert alert-danger" *ngIf="company.touched && !company.valid"> Input company name</div>
       <div class="alert alert-danger" *ngIf="company.value.length < 3"> Not valid name</div>
+      <div class="alert alert-danger"> Not valid name</div>
     </div>
-    <div class="form-group w-50 p-3">
+    <div class="myForm">
       <label for="Phone number">Phone number</label>
-      <input required minlength="12" ngModel name="number" #number="ngModel" type="text" class="form-control" value="+">
+      <input required minlength="13" ngModel name="number" #number="ngModel" type="text" ngModel="+" class="form-control" value="ngModel">
       <div class="alert alert-danger" *ngIf="number.touched && number.value.length < 13" > Enter valid number</div>
     </div>
 
-    <div class="form-group w-50 p-3">
+    <div class="myForm">
       <label for="Email">Email</label>
-      <input required minlength="12" ngModel name="email" #email="ngModel" type="text" class="form-control">
+      <input required minlength="12" ngModel name="email" (change)="ValidateEmail(email.value)" #email="ngModel" type="text" class="form-control">
       <div class="alert alert-danger" *ngIf="email.touched && email.value.length < 13" > Enter valid email</div>
     </div>
-    <div class="form-group w-50 p-3">
+    <div class="myForm">
        <label for="comment">Write Us Message</label>
        <textarea  ngModel name="comment" id="comment" cols="30" rows="10" class="form-control"></textarea>
  
     </div >
+    <div class="myForm">
+      <label for="some">Hey</label>
+      <input type="text" value="ngModel" ngModel name="test" ngModel="+" #value = 'ngModel'>
+    </div>
+    <div class="myForm">
+       class
+    </div>
     
     <button class="btn-confirm">Send Message</button>
     </form>

@@ -20,5 +20,26 @@ export class ContactFormComponent implements OnInit {
 log(x: any) {
   console.log(x)
 }
+type(x:any) {
+  let fake;
+  typeof(x) === 'number' ? fake = true : fake = false
+
 }
+
+ValidateEmail(input: any) {
+
+  var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+  if (input.value.match(validRegex)) {
+
+    return true;
+
+  } else {
+
+    return false;
+  }
+
+}
+}
+
 

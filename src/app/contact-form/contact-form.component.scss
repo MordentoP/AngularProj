@@ -1,0 +1,31 @@
+.btn-confirm {
+    margin-left: 50px;
+    background: #FFBC00;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    position: absolute;
+width: 170px;
+height: 61px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+}
+.myForm {
+    border-bottom:2px solid gray ;
+    outline: none;
+    width: 600px;
+}
+input {
+    border: 0;
+    outline: 0;
+}
+input:focus {outline:none!important;}
+.form-not-valid {
+    border-bottom:2px solid red ;
+    outline: none;
+    color: red;
+}
