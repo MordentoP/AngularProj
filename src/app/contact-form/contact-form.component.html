@@ -1,13 +1,33 @@
 
 <form>
-    <div class="form-group">
-    <label for="firstName">First name</label>
-    <input ngModel name="firstName" #firstName="ngModel"  id="firstName" type="text" class="form-control">
+    <div class="form-group w-50 p-3">
+    <label for="firstName">Full Name</label>
+    <input required minlength="3" ngModel name="firstName" #firstName="ngModel" (change)="log(firstName)" id="firstName" type="text" class="form-control">
+    <div class="alert alert-danger" *ngIf="firstName.touched && !firstName.valid">Input name</div>
+     <div *ngIf="firstName.errors"></div>
+    
     </div>
-    <div class="form-group">
-       <label for="comment">Company</label>
-       <textarea id="comment" cols="30" rows="10" class="form-control"></textarea>
+    <div class="form-group w-50 p-3">
+      <label  for="Company Name"> Company Name</label>
+      <input required minlength="3" ngModel name="company" type="text" class="form-control">
+      <div *ngIf=""></div>
+    </div>
+    <div class="form-group w-50 p-3">
+      <label for="Phone number">Phone number</label>
+      <input type="text" class="form-control">
+    </div>
+
+    <div class="form-group w-50 p-3">
+      <label for="Email">Email</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="form-group w-50 p-3">
+       <label for="comment">Write Us Message</label>
+       <textarea  ngModel name="comment" id="comment" cols="30" rows="10" class="form-control"></textarea>
  
-    </div>
+    </div >
+    
     <button class="btn-confirm">Send Message</button>
     </form>
+
+  
