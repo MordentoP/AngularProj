@@ -1,7 +1,7 @@
 import { Component, OnInit,} from '@angular/core';
 
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+import { FormsModule, NgModel, ReactiveFormsModule } from '@angular/forms'
 import { AppComponent }  from '../app.component';
 
 @Component({
@@ -26,9 +26,9 @@ type(x:any) {
 
 }
 
-ValidateEmail(input: any) {
+validateEmail(input: any) {
 
-  var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
   if (input.value.match(validRegex)) {
 
@@ -38,7 +38,10 @@ ValidateEmail(input: any) {
 
     return false;
   }
-
+ 
+}
+sendInfo(){
+  console.log(NgModel)
 }
 }
 
