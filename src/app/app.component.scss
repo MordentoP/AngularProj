@@ -19,7 +19,7 @@
 }
 
 .back {
-    background-color: orange;
+    background-color: #FFBC00;
     width: 100vw;
     height: 100vh;
 }
@@ -30,13 +30,6 @@
     right: 5.15%;
     top: 9.29%;
    
-  
-
-
-
-
-
-    
 }
 
 .About {
@@ -44,7 +37,7 @@
     left: 60.74%;
     right: 5.15%;
     top: 9.29%;
-    
+
 }
 
 .What {
@@ -54,8 +47,7 @@
     top: 9.29%;
     font-family: 'Ubuntu', sans-serif;
     text-shadow: 0px 4px 0px rgba(206,89,55,0.30);
-   
-}
+   }
 
 .Contact {
     position: absolute;
@@ -312,3 +304,140 @@ margin-bottom: 100px;
     top: 88.29%;
     rotate: 90deg;   
   }
+
+  @media (max-width: 375px) {
+    .logo {
+        position: absolute;
+left: 7.74%;
+right: 5.15%;
+top: 5.29%;
+bottom: 16.67%;
+
+background: #FFBC00
+    }
+    .Home {
+   display: none; 
+    }
+    .About {
+        display: none;
+
+    }
+    .Contact {
+        display: none;
+    }
+    .What {
+        display: none;
+  }
+  .title-content {
+    position: absolute;
+width: 270.64px;
+height: 109px;
+left: 24px;
+top: 139px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 130%;
+/* or 55px */
+
+text-transform: uppercase;
+
+  }
+  .title-content2{
+    position: absolute;
+width: 270.64px;
+height: 109px;
+left: 24px;
+top: 189px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 130%;
+/* or 55px */
+
+text-transform: uppercase;
+
+   }
+   .text-content {
+    position: absolute;
+width: 300px;
+height: 66px;
+left: 24px;
+top: 273px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+   }
+   .learn {
+    position: absolute;
+width: 75px;
+height: 16px;
+left: 33px;
+top: 389px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+   }
+   .main-image {
+    position: absolute;
+width: 401px;
+height: 313.75px;
+left: 39px;
+top: 472px;
+   }
+   #scroll {
+    display: none;
+   }
+   #arrow {
+    display: none;
+   }
+   #Contact {
+    position: absolute;
+width: 140px;
+height: 48px;
+left: 24px;
+top: 737px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+text-transform: uppercase;
+   }
+   #Us {
+    position: absolute;
+width: 140px;
+height: 48px;
+left: 134px;
+top: 737px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 48px;
+text-transform: uppercase;
+   }
+   #rectangle {
+    position: absolute;
+width: 327px;
+height: 480px;
+left: 24px;
+top: 899px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+border-radius: 30px;
+   }
+}

@@ -9,7 +9,7 @@
     <div *ngIf="!firstName.valid && firstName.touched" id="form-not-valid"> Full name required</div>
    
     </div>
-    <div class="">
+    <div class="input-form">
       <label  for="Company Name" *ngIf="company.valid || !company.touched" > Company Name</label>
       <label  for="Company Name" *ngIf="!company.valid && company.touched" id="red">Company Name</label>
       <input required minlength="3" ngModel name="company" #company="ngModel" type="text" class="form-control" >
@@ -20,7 +20,7 @@
       
      
     </div>
-    <div class="">
+    <div class="input-form">
       <label for="Phone number" *ngIf="number.valid || !number.touched">Phone number</label>
       <label  for="Phone number" *ngIf="!number.valid && number.touched" id="red">Phone number</label>
       <input required minlength="13" ngModel name="number" #number="ngModel" type="text" ngModel="+" class="form-control" value="ngModel">
@@ -29,7 +29,7 @@
       <div id="form-not-valid" *ngIf="number.touched && number.value.length < 13" > Enter valid number</div>
     </div>
 
-    <div class="">
+    <div class="input-form">
       <label for="Email" *ngIf="email.valid || !email.touched">E-mail</label>
       <label  for="Email" *ngIf="!email.valid && email.touched" id="red">Email</label>
       <input required minlength="12" ngModel name="email" (change)="validateEmail(email.value)" #email="ngModel" type="text" class="form-control">
@@ -37,7 +37,7 @@
       <div  *ngIf="email.touched && email.value.length < 13" id="form-not-valid" > Enter valid e-mail</div>
       <div *ngIf="!email.touched" class="myForm"></div>
     </div>
-    <div class="">
+    <div class="input-form">
        <label for="comment" class="write">Write Us Message</label>
        <textarea  ngModel name="comment" id="comment" cols="30" rows="10" class="write"></textarea>
  
