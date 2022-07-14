@@ -6,6 +6,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  
 
   constructor(private modalService: NgbModal) {
   }
@@ -14,4 +15,19 @@ export class AppComponent {
     this.modalService.open(modal);
   }
 
+  showMenu() {
+    
+    console.log('hello')
+  }
+  one = 'title-content'
+  two = 'test'
+  changeClass() {
+
+  }
+
+  status: boolean = false;
+clickEvent(){
+    this.status = !this.status;       
+    console.log('click')
+}
 }
