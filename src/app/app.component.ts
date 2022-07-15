@@ -30,4 +30,15 @@ clickEvent(){
     this.status = !this.status;       
     console.log('click')
 }
+
+isHidden = true;
+toggleHidden() {
+  this.isHidden = !this.isHidden
+  
+}
+hideMainMenu = false;
+toggleMenu() {
+  this.hideMainMenu = !this.hideMainMenu
+  
+}
 }

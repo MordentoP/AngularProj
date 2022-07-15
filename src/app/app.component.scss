@@ -300,7 +300,14 @@ margin-bottom: 100px;
     rotate: 90deg;   
   }
   
-
+.logo-mobile {
+    
+    margin-top: 40px;
+    margin-left: 33px;
+}
+.cross-icon {
+    padding-top: 20px;
+}
 
 .mobile-menu-open {
     background-color: #FFBC00;
@@ -329,9 +336,12 @@ margin-bottom: 100px;
     background-color: #FFBC00;
     
     
+    
         }
+
  #mobile-links > * {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
+            
            
         }
   .low-visible {
@@ -344,9 +354,24 @@ opacity: 0.5;
   }
   .cross {
     position: absolute;
-    left: 90%;
-    top: 1%;
+    left: 80%;
+    top: 6%;
+
+  
   }
+  .hideMe{
+    display: none;
+    color: #FFBC00;
+}
+.show {
+    color: red
+}
+.isHidden {
+    display: none;
+}
+.hideMainMenu {
+    display: none;
+}
   @media (max-width: 375px) {
 
     .mobile-logo {
@@ -495,12 +520,10 @@ border-radius: 30px;
     display: none;
    }
    .menu-open{
-    
+    display: block;
    }
 }
 
-.device-only {
-    display: none;
-}
+
 
 
