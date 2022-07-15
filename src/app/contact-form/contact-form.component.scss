@@ -62,23 +62,37 @@ line-height: 14px;
 @media (max-width :375px) {
     .myForm {
        
-       height: 1px;
+       
        width: 239px;
        left: 0px;
        top: 51px;
        border-radius: 0px;
        
+       
     }
     .write {
         width: 239px;
+        margin-bottom: 0px;
     }
     .input-form {
+        padding-top: 20px;
         margin-top: 10px;
         width: 279px;
         height: 45px;
     }
     .btn-confirm {
-        margin-top: 50px;
+        margin-top: 150px;
+    }
+    #form-not-valid {
+        border-bottom:2px solid red ;
+        outline: none;
+        color: red;
+        width: 239px;
+    }
+    input {
+        width: 239px;
+    border: 0;
+    outline: 0;
     }
 }
 

@@ -40,8 +40,9 @@ validateEmail(input: any) {
   }
  
 }
-sendInfo(){
-  console.log(NgModel)
+sendInfo(firstName: any, company: any, number :any, email:any, comment:any){
+  console.log(` Full name : ${firstName.value}, Company name: ${company.value}, Phone number:${number.value}, Email: ${email.value}, Message : ${comment.value}`)
+  alert(` Full name : ${firstName.value}, Company name: ${company.value}, Phone number:${number.value}, Email: ${email.value}, Message : ${comment.value}`)
 }
 }
 

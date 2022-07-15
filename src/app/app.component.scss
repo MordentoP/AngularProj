@@ -372,8 +372,23 @@ opacity: 0.5;
 .hideMainMenu {
     display: none;
 }
+.arrow-button {
+    position: absolute;
+    left: 72.74%;
+    right: 5.15%;
+    top: 113.29%;
+}
+@media (min-width: 376x) {
+    .mobile-logo {
+        display: none;
+    }
+}
   @media (max-width: 375px) {
 
+    .arrow-button {
+        left: 268px;
+        top: 827px;
+    }
     .mobile-logo {
         position: absolute;
 width: 30px;

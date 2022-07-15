@@ -39,12 +39,12 @@
     </div>
     <div class="input-form">
        <label for="comment" class="write">Write Us Message</label>
-       <textarea  ngModel name="comment" id="comment" cols="30" rows="10" class="write"></textarea>
+       <textarea  ngModel name="comment" id="comment"  #comment="ngModel"cols="30" rows="10" class="write"></textarea>
  
     </div >
     
     
-    <button class="btn-confirm" (click)="sendInfo()">Send Message</button>
+    <button class="btn-confirm" (click)="sendInfo(firstName, company, number, email, comment)">Send Message</button>
     </form>
 
   
