@@ -1,8 +1,8 @@
-
 .default {
     margin: 0;
     padding: 0;
 }
+
 
 .logo {
     position: absolute;
@@ -45,35 +45,24 @@
    }
 
 .Contact {
-    position: absolute;
+    position:absolute;
     left: 72.74%;
     right: 5.15%;
     top: 9.29%;
     font-family: Ubuntu;
-    
     font-size: 18px;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: 0px;
-    
-
     box-sizing: border-box;
-    
-   
     width: 176px;
     height: 65px;
-
     background: #FFFFFF;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.40);
-    border-radius: 16px;
-    text-align: center;
-
-    
-width: 118px;
-height: 50px;
-
-background: #FFFFFF;
-border-radius: 12px;
+    text-align:center;
+    width: 118px;
+    height: 50px;
+    border-radius: 12px;
 }
 
 .main-image {
@@ -83,27 +72,22 @@ border-radius: 12px;
     right: 25.15%;
     top: 22.29%;
 
-  
-
 }
 .title-content {
     position: absolute;
     left: 15%;
     right: 25.15%;
     top: 22.29%;
-
     font-family: 'Anton', sans-serif;
-font-size: 68px;
-font-weight: 400;
-line-height: 88px;
-letter-spacing: 0px;
-text-align: left;
-
-position: absolute;
-text-transform: uppercase;
-
-color: #000000;
-text-shadow: 0px 4px 0px rgba(206,89,55,0.30);
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 0px 4px 0px rgba(206,89,55,0.30);
 
 }
 .title-content2 {
@@ -111,28 +95,21 @@ text-shadow: 0px 4px 0px rgba(206,89,55,0.30);
     left: 15%;
     right: 25.15%;
     top: 29.29%;
-
     font-family: 'Anton', sans-serif;
-font-size: 68px;
-font-weight: 400;
-line-height: 88px;
-letter-spacing: 0px;
-text-align: left;
-
-position: absolute;
-
-
-font-family: 'Anton';
-font-style: normal;
-font-weight: 400;
-font-size: 68px;
-line-height: 130%;
-/* or 88px */
-
-text-transform: uppercase;
-
-color: #000000;
-text-shadow: 0px 4px 0px rgba(206,89,55,0.30);
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 0px 4px 0px rgba(206,89,55,0.30);
 
 
 }
@@ -149,78 +126,63 @@ a:visited {
 
 #header-links {
     font-family: Ubuntu;
-    
-font-size: 18px;
-font-weight: 500;
-line-height: 21px;
-letter-spacing: 0px;
-text-align: left;
-text-shadow: 0px 4px 0px rgba(206,89,55,0.30);
-
-
-}
-
-.text-content {
-    
-    font-family: Ubuntu;
-    
     font-size: 18px;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: 0px;
     text-align: left;
+    text-shadow: 0px 4px 0px rgba(206,89,55,0.30);
+}
 
+.text-content {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
     width: 560px;
     height: 58px;
-
-position: absolute;
-left: 20.74%;
-right: 25.15%;
-top: 47.29%;
-text-shadow: 0px 4px 0px rgba(206,89,55,0.30);
+    position: absolute;
+    left: 20.74%;
+    right: 25.15%;
+    top: 47.29%;
+    text-shadow: 0px 4px 0px rgba(206,89,55,0.30);
 }
 #box-style {
     box-sizing: border-box;
-
-position: absolute;
-width: 176px;
-height: 65px;
-
-background: #FFFFFF;
-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.40);
-border-radius: 16px;
+    position: absolute;
+    width: 176px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.40);
+    border-radius: 16px;
 
 }
 .learn {
     font-family: Ubuntu;
-    
     font-size: 18px;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: 0px;
     text-align: center;
     position: absolute;
-left: 20.74%;
-right: 25.15%;
-top: 67.29%;
+    left: 20.74%;
+    right: 25.15%;
+    top: 67.29%;
 }
 .scroll {
     position: absolute;
-width: 47px;
-height: 21px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-
-
-text-align: center;
-
-color: #000000;
-
-transform: rotate(-90deg);
+    width: 47px;
+    height: 21px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    transform: rotate(-90deg);
 
 
 }
@@ -229,16 +191,16 @@ transform: rotate(-90deg);
     left: 20.74%;
     position: absolute;
 
-font-family: Anton;
-font-size: 50px;
-font-weight: 400;
-line-height: 75px;
-letter-spacing: 0px;
-text-align: left;
+    font-family: Anton;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0px;
+    text-align: left;
 
 
-text-shadow: 0px 4px 0px rgba(206,89,55,0.30);
-color: #FFBC00;
+    text-shadow: 0px 4px 0px rgba(206,89,55,0.30);
+    color: #FFBC00;
 
 
 }
