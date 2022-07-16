@@ -1,79 +1,70 @@
-    <header class="">
-        
-        
-    </header>
-    <div class="device-only">
-      
-      <div class="mobile-menu-open" [class.hideMe]="isHidden">
-         <img src="./assets/logo-white 4.png" class="logo-mobile">
-         <div (click)="toggleMenu()" (click)="toggleHidden()" class="cross-icon">
-         <img src="./assets/part1.png" class="cross">
-         <img src="./assets/part2.png" class="cross" >
-         
-         </div>
-         <div id="mobile-links">
-            
-         <a href="">Home</a> <br>
-         <a href="">What we do</a><br>
-         <a href="">About us</a><br>
-         <a href="">Our history</a><br>
-         <a href="">Contact us</a><br>
-         <br>
-         <p class="low-visible"> Services</p><br>
-         <a href="">Training and implementation</a><br>
-         <a href="">Cyber consultants</a><br>
-         <a href="">Consultancy and brand protection</a><br>
-         <a href="">Software</a><br>
-      </div>
-      </div>
-       </div>
-
-
-    
-    
-    <div [class.hideMainMenu]="hideMainMenu" >
-    
-    <div id="header-links">
- <a href="" class="Home">Home</a>
- <a href="" class="About">About Us</a>
- <a href="" class="What">What We Do</a>
- 
+<header class=""></header>
+<div class="device-only">
+  <div class="mobile-menu-open" [class.hideMe]="isHidden">
+    <img src="./assets/logo-white 4.png" class="logo-mobile" />
+    <div (click)="toggleMenu()" (click)="toggleHidden()" class="cross-icon">
+      <img src="./assets/part1.png" class="cross" />
+      <img src="./assets/part2.png" class="cross" />
+    </div>
+    <div id="mobile-links">
+      <a href="">Home</a> <br />
+      <a href="">What we do</a><br />
+      <a href="">About us</a><br />
+      <a href="">Our history</a><br />
+      <a href="">Contact us</a><br />
+      <br />
+      <p class="low-visible">Services</p>
+      <br />
+      <a href="">Training and <br>implementation</a><br />
+      <a href="">Cyber consultants</a><br />
+      <a href="">Consultancy and <br> brand protection</a><br />
+      <a href="">Software</a><br />
+    </div>
+  </div>
 </div>
-<a href="" class="Contact">Contact Us</a>
- 
-<div class="mobile-menu-open" [class.hideMainMenu] >
- <div class="back" >
-    <img src="./assets/logo-white 4.png" class="logo">
-    <img src="./assets/space-helmetf 2.png" class="main-image">
-    <img src="./assets/mobile-menu-button.png" class="mobile-logo" (click)="toggleMenu()" (click)="toggleHidden()"  >
-    <a href="#header-links"> <img src="./assets/arrow-button.png" class="arrow-button"> </a>
-    
-    <h1 ngClass="{{one}}"> Never Caught  </h1>
-    <h1 class="title-content2"> Off-Guard Again</h1>
-    <p class="text-content" >We are specialist in protecting your assets and reputation to make sure you operate risk-free and focus on your core business.</p>
-    <button id="box-style" class="learn">Learn More!</button>
-    <p id="scroll">Scroll </p>
-    <h1 id="arrow"> → </h1>
 
-    
-    
- </div>
-   <h1 id="Contact">CONTACT </h1> 
-   <h1 id="Us"> US</h1>
-<div class="form">
-   
-   <div id="rectangle">
-      <app-contact-form></app-contact-form>
-   </div>
-</div>
+<div [class.hideMainMenu]="hideMainMenu">
+  <div id="header-links">
+    <a href="" class="Home">Home</a>
+    <a href="" class="About">About Us</a>
+    <a href="" class="What">What We Do</a>
+    <div class="Contact">
+      <font>Contact Us</font>
+     </div>
+  </div>
+  
   
 
+  <div class="mobile-menu-open" [class.hideMainMenu]>
+    <div class="back">
+      <img src="./assets/logo-white 4.png" class="logo" />
+      <img src="./assets/space-helmetf 2.png" class="main-image" />
+      <img
+        src="./assets/mobile-menu-button.png"
+        class="mobile-logo"
+        (click)="toggleMenu()"
+        (click)="toggleHidden()"
+      />
+      <a href="#header-links">
+        <img src="./assets/arrow-button.png" class="arrow-button" />
+      </a>
 
-   
-   
+      <h1 class="title-content">Never Caught</h1>
+      <h1 class="title-content2">Off-Guard Again</h1>
+      <p class="text-content">
+        We are specialist in protecting your assets and reputation to make sure
+        you operate risk-free and focus on your core business.
+      </p>
+      <button id="box-style" class="learn">Learn More!</button>
+      <p id="scroll">Scroll</p>
+      <h1 id="arrow">→</h1>
+    </div>
+    <h1 id="Contact">CONTACT</h1>
+    <h1 id="Us">US</h1>
+    <div class="form">
+      <div id="rectangle">
+        <app-contact-form></app-contact-form>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-
-
-
- 

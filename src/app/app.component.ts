@@ -15,21 +15,8 @@ export class AppComponent {
     this.modalService.open(modal);
   }
 
-  showMenu() {
-    
-    console.log('hello')
-  }
-  one = 'title-content'
-  two = 'test'
-  changeClass() {
+ 
 
-  }
-
-  status: boolean = false;
-clickEvent(){
-    this.status = !this.status;       
-    console.log('click')
-}
 
 isHidden = true;
 toggleHidden() {

@@ -1,98 +1,169 @@
 .btn-confirm {
-    margin-left: 50px;
-    background: #FFBC00;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.08);
-    border-radius: 16px;
-    position: absolute;
-width: 170px;
-height: 61px;
+  margin-left: 50px;
+  background: #ffbc00;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  position: absolute;
+  width: 170px;
+  height: 61px;
 
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 18px;
-text-align: center;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
 }
 .myForm {
-    border-bottom:2px solid gray ;
-    outline: none;
-    width: 600px;
+  border-bottom: 2px solid gray;
+  outline: none;
+  width: 600px;
 }
 input {
-    width: 600px;
-    border: 0;
-    outline: 0;
+  width: 600px;
+  border: 0;
+  outline: 0;
 }
-input:focus {outline:none!important;}
+input:focus {
+  outline: none !important;
+}
 #form-not-valid {
-    border-bottom:2px solid red ;
-    outline: none;
-    color: red;
-    width: 600px;
+  border-bottom: 2px solid red;
+  outline: none;
+  color: red;
+  width: 600px;
 }
 #red {
-    color: red;
+  color: red;
 }
 .form {
-    margin-left: 50px;
-    margin-top: 50px;
-    font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 14px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
 }
 .write {
-    margin-top: 15px;
-    width: 600px;
-    
-    outline: none;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-color: gray;
-    resize: none;
-    
+  margin-top: 15px;
+  width: 600px;
+
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: gray;
+  resize: none;
 }
 .input-form {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-
-@media (max-width :375px) {
+@media (max-width: 380px) {
+  .myForm {
+    width: 300px;
+    left: 0px;
+    top: 51px;
+    border-radius: 0px;
+    background-color: rebeccapurple;
+  }
+  @media (max-width:1281px) {
     .myForm {
-       
-       
-       width: 239px;
-       left: 0px;
-       top: 51px;
-       border-radius: 0px;
-       
-       
-    }
-    .write {
-        width: 239px;
-        margin-bottom: 0px;
-    }
-    .input-form {
-        padding-top: 20px;
-        margin-top: 10px;
-        width: 279px;
-        height: 45px;
-    }
-    .btn-confirm {
-        margin-top: 150px;
-    }
-    #form-not-valid {
-        border-bottom:2px solid red ;
-        outline: none;
-        color: red;
-        width: 239px;
-    }
-    input {
-        width: 239px;
+    margin-left: 100px;
+    width: 800px;
+    left: 100px;
+    top: 51px;
+    border-radius: 0px;
+  }
+  .write {
+    width: 800px;
+    margin-bottom: 0px;
+  }
+  .input-form {
+    padding-top: 20px;
+    margin-top: 10px;
+    width: 800px;
+    height: 45px;
+  }
+  .btn-confirm {
+    margin-top: 150px;
+  }
+  #form-not-valid {
+    border-bottom: 2px solid red;
+    outline: none;
+    color: red;
+    width: 800px;
+  }
+  input {
+    width: 800px;
     border: 0;
     outline: 0;
-    }
+  }
 }
+  @media (max-width:961px) {
+    .myForm {
+    width: 800px;
+    left: 0px;
+    top: 51px;
+    border-radius: 0px;
+  }
+  .write {
+    width: 800px;
+    margin-bottom: 0px;
+  }
+  .input-form {
+    padding-top: 20px;
+    margin-top: 10px;
+    width: 800px;
+    height: 45px;
+  }
+  .btn-confirm {
+    margin-top: 150px;
+  }
+  #form-not-valid {
+    border-bottom: 2px solid red;
+    outline: none;
+    color: red;
+    width: 800px;
+  }
+  input {
+    width: 800px;
+    border: 0;
+    outline: 0;
+  }
+}
+}
+@media (max-width: 480px) {
+  .myForm {
+    width: 320px;
+    left: 0px;
+    top: 51px;
+    border-radius: 0px;
+  }
+  .write {
+    width: 320px;
+    margin-bottom: 0px;
+  }
+  .input-form {
+    padding-top: 20px;
+    margin-top: 10px;
+    width: 320px;
+    height: 45px;
+  }
+  .btn-confirm {
+    margin-top: 150px;
+  }
+  #form-not-valid {
+    border-bottom: 2px solid red;
+    outline: none;
+    color: red;
+    width: 320px;
+  }
+  input {
+    width: 330px;
+    border: 0;
+    outline: 0;
+  }
+}
+
 
